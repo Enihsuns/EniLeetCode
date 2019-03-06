@@ -72,6 +72,8 @@ Expected:
 
 需要更改transMap的结构。目前的想法是，transMap对应一个修改结构为Map<String, List<String>>。
 
+**注意需要使用DFS返回路径**
+
 Test case 2:
 
 错误原因：Runtime error
